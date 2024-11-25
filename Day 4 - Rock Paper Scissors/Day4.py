@@ -38,7 +38,7 @@ print(f"You chose: {handsign[decision]}")
 print(f"They chose: {handsign[opponent]}")
 
 
-if decision >= 3 and decision < 0:
+if decision >= 3 or decision < 0:
     print("That isn't a hand sign for the game! You explode and lose! *BOOM!*")
 elif decision == opponent:
     print("You both draw!")
