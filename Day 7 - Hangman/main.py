@@ -1,3 +1,8 @@
+'''
+Day 7 - Hangman
+This project was simply an excercise that would revisit all concepts made from the projects in the days before this one. 
+Some skills include importing, iterating through a list, for and while loops, and the use of strings and fstrings.
+'''
 import random
 from hangman_words import word_list
 from hangman_art import stages
